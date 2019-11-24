@@ -24,7 +24,7 @@
 #
 # ------------------------------------------------------------------------------
 
-sudo-cmd() {
+sudoSwitch() {
     [[ -z $BUFFER ]] && zle up-history
     if [[ $BUFFER == sudo\ * ]]; then
         BUFFER="${BUFFER#sudo }"
@@ -32,7 +32,7 @@ sudo-cmd() {
         BUFFER="sudo $BUFFER"
     fi
 }
-zle -N sudo-cmd
-bindkey -M emacs '\e\e' sudo-cmd
-bindkey -M vicmd '\e\e' sudo-cmd
-bindkey -M viins '\e\e' sudo-cmd
+zle -N sudoSwitch
+bindkey -M emacs '\e\e' sudoSwitch
+bindkey -M vicmd '\e\e' sudoSwitch
+bindkey -M viins '\e\e' sudoSwitch`
