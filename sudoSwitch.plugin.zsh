@@ -27,9 +27,9 @@
 sudoSwitch() {
     [[ -z $BUFFER ]] && zle up-history
     if [[ $BUFFER == sudo\ * ]]; then
-        BUFFER="${BUFFER#sudo }"
+        CURSOR-=5;BUFFER="${BUFFER#sudo }"
     else
-        BUFFER="sudo $BUFFER"
+        BUFFER="sudo $BUFFER";CURSOR+=5
     fi
 }
 zle -N sudoSwitch
