@@ -18,3 +18,14 @@ Alias settings are written after `zplug load`.
 ```zsh
 zplugin light newaaa41/zsh-abbrnewaaa41/zsh-sudoSwitch
 ```
+
+## USAGE
+to add or remove sudo to the beginning of the current command use the shorcut  <ESC><ESC>
+ you can remap sudoSwitch to another shortcut by adding the next command to your ``` .zshrc ```
+ 
+ ```zsh
+bindkey ';;' sudoSwitch
+```
+this command will allow you to use sudoSwitch by pressing <semicolon> twice
+ 
+  
