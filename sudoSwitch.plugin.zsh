@@ -35,4 +35,4 @@ sudoSwitch() {
 zle -N sudoSwitch
 bindkey -M emacs '\e\e' sudoSwitch
 bindkey -M vicmd '\e\e' sudoSwitch
-bindkey -M viins '\e\e' sudoSwitch`
+bindkey -M viins '\e\e' sudoSwitch
