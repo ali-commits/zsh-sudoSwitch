@@ -1,8 +1,9 @@
 # zsh-sudoSwitch
 
 automatically add and remove sudo to the beginning of the current command or the last command with simple short cut 
-
-## Installation
+##DEMO
+![](sudoSwitch.gif)
+## INSTALLATION
 
 ### Using [zplug](https://github.com/b4b4r07/zplug)
 
