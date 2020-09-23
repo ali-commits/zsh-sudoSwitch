@@ -26,6 +26,11 @@ to add or remove sudo to the beginning of the current command use the shorcut  <
  ```zsh
 bindkey ';;' sudoSwitch
 ```
-this command will allow you to use sudoSwitch by pressing <semicolon> twice
+this command will allow you to use sudoSwitch by pressing **semicolon** twice
+```zsh
+bindkey  '\e\e' sudoSwitch
+```
+this command will allow you to use sudoSwitch by pressing **Esc** twice
+
  
   
