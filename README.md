@@ -8,15 +8,15 @@ automatically add and remove sudo to the beginning of the current command or the
 ### Using [zplug](https://github.com/b4b4r07/zplug)
 
 ```zsh
-zplug "newaaa41/zsh-abbrnewaaa41/zsh-sudoSwitch"
+zplug "newaaa41/zsh-sudoSwitch"
 ```
 
 Alias settings are written after `zplug load`.
 
-### Using [zpluging](https://github.com/zdharma/zplugin)
+### Using [zinit](https://github.com/zdharma/zinit)
 
 ```zsh
-zplugin light newaaa41/zsh-abbrnewaaa41/zsh-sudoSwitch
+zinit light newaaa41/zsh-sudoSwitch
 ```
 
 ## USAGE
