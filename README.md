@@ -2,13 +2,13 @@
 
 automatically add and remove sudo to the beginning of the current command or the last command with simple short cut 
 ## DEMO
-![sudoSwitch Demo](https://github.com/newaaa41/zsh-sudoSwitch/blob/master/demo.gif?raw=true)
+![sudoSwitch Demo](https://github.com/ali-commits/zsh-sudoSwitch/blob/master/demo.gif?raw=true)
 ## INSTALLATION
 
 ### Using [zplug](https://github.com/b4b4r07/zplug)
 
 ```zsh
-zplug "newaaa41/zsh-sudoSwitch"
+zplug "ali-commits/zsh-sudoSwitch"
 ```
 
 Alias settings are written after `zplug load`.
@@ -16,7 +16,7 @@ Alias settings are written after `zplug load`.
 ### Using [zinit](https://github.com/zdharma/zinit)
 
 ```zsh
-zinit light newaaa41/zsh-sudoSwitch
+zinit light ali-commits/zsh-sudoSwitch
 ```
 
 ## USAGE
